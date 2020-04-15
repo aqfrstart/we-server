@@ -7,9 +7,11 @@ const MovieSchema = new Schema({
   keyword: String,              // 查询关键字
   content: String,              // 查询内容
   searchType: Number,           // 匹配类型  0: 模糊匹配  1: 完全匹配
+  movieType: String,            // 电影类型
+  desc: String,                 // 简介
+  actor: String,                // 主演
   createTime: String,           // 创建时间, 时间戳
   updateTime: String,           // 更新时间, 时间戳
-  movieType: String,            // 电影类型
   movieUpdateTime: String       // 电影更新时间
 })
 //创建模型对象

@@ -4,15 +4,12 @@
   "description": "基于puppeteer, 爬取掘金, SegmentFault, 知名公众号前端文章（前端早读课, 前端之巅等...）",
   "main": "app.js",
   "dependencies": {
-    "canvas": "^2.6.0",
-    "cheerio": "^1.0.0-rc.3",
     "koa": "^2.7.0",
+    "koa-bodyparser": "^4.3.0",
     "koa-router": "^7.4.0",
     "mongodb": "^3.3.0-beta2",
     "mongoose": "^5.6.9",
     "pm2": "^3.5.1",
-    "puppeteer": "^1.19.0",
-    "rembrandt": "^0.1.3",
     "sleep": "^6.1.0"
   },
   "devDependencies": {},
